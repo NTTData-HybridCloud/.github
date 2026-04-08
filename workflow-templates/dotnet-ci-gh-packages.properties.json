@@ -1,0 +1,13 @@
+{
+  "name": ".NET CI + GitHub Packages Artifact",
+  "description": "Ejecuta CI de .NET y guarda un artefacto en GitHub Packages (GHCR).",
+  "iconName": "dotnet",
+  "categories": [
+    ".NET",
+    "Continuous integration"
+  ],
+  "filePatterns": [
+    "\\.csproj$",
+    "project\\.json$"
+  ]
+}
