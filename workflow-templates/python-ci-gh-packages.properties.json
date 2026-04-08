@@ -1,0 +1,14 @@
+{
+  "name": "Python CI + GitHub Packages Artifact",
+  "description": "Ejecuta CI de Python y guarda un artefacto en GitHub Packages (GHCR).",
+  "iconName": "python",
+  "categories": [
+    "Python",
+    "Continuous integration"
+  ],
+  "filePatterns": [
+    "requirements\\.txt$",
+    "pyproject\\.toml$",
+    "setup\\.py$"
+  ]
+}
